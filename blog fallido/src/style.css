@@ -1,0 +1,226 @@
+*{
+    box-sizing: border-box;
+    font-weight: 1.5rem;
+}
+.menu{
+    display: inline-flex;
+   
+}
+#titulo{
+    padding: 0;
+}
+.menu2{
+    display: inline-flex;
+}
+
+body{
+    background-color: rgb(240, 242, 243);
+    margin: 0; 
+    font-family: 'Montserrat';
+    
+}
+.navv{
+background-color: rgb(74, 74, 74);
+position: relative;
+width: 100%;
+}
+
+button{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.3rem;
+    border: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(97, 97, 97);
+    box-shadow: 1px 1px 1px rgb(59, 60, 60);
+}
+.edit{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.3rem;
+    border: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(97, 97, 97);
+    box-shadow: 1px 1px 1px rgb(59, 60, 60);
+}
+.edit:hover{
+    transition: color 0.7s ease;
+    background-color: rgb(73, 143, 120);
+}
+button:hover{
+    transition: color 0.43s ease;
+    background-color: rgb(73, 143, 120);
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(63, 62, 62);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 0 ;    
+    margin: 0;
+    min-width: 100%;
+    position:sticky;
+    top: 0%;
+}
+a{
+    color: rgb(201, 192, 180);
+    font-size: small;
+    padding: 10px;
+    text-decoration: none;
+}
+a:hover{
+    transition: color 0.43s ease;
+    color: aquamarine;
+}
+h1{
+ font-size: 3rem;
+ padding: 12px;
+ margin: 0;
+}
+.cont{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15em,18em));
+    justify-content: center;
+    min-height: 100vh;
+    margin: 20px 20px;   
+}
+.post{
+    width: 17em;
+    min-height: 40em; 
+    max-height: 40em; 
+}
+.post p{
+    display: flex;
+    flex-wrap: wrap; 
+    max-height: 300px; 
+    text-justify: distribute-all-lines;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+section article{
+    background-color: rgb(255, 255, 255);
+    margin: 10px 10px;
+    border-radius: 5px 5px;
+    padding: 5px 5px;
+ 
+}
+section article h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+section article:hover{
+    transition: box-shadow 0.3s ease;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer; 
+}
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(36, 35, 35);
+    padding: 20px;
+    color: white;
+}
+#foo{ 
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+}
+footer a:hover{
+   transition: color 0.5s ease;
+   color: aquamarine;
+}
+.imagen{
+    max-width: 100%;
+}
+.opciones{
+    display: flex;
+    margin-left: auto;
+    width: 70px;
+}
+.x{
+    width: 30px;
+    margin: 1px;
+    background-color: rgb(238, 238, 238);
+    color: rgb(48, 48, 48);
+    border-color: rgb(113, 113, 113);
+    box-shadow: none;
+}
+.edit{
+    width: 30px;
+    margin: 1px;
+    background-color: rgb(238, 238, 238);
+    color: rgb(48, 48, 48);
+    border-color: rgb(113, 113, 113);
+    box-shadow: none;
+}
+.active{
+    transition: color 0.43s ease;
+    color: aquamarine;
+    background-color: rgb(177, 177, 177);
+    border-radius: 1em;
+}
+.form-content{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+.form{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.form input{
+    min-height: 30px;
+    border: none;
+    background-color: rgb(238, 238, 238);
+    outline: 0px;
+    border-bottom: 2px solid rgb(42, 121, 95);
+}
+.form textarea{
+    max-width: 400px;
+    min-height: 220px;
+    resize: none;
+    border: none;
+    background-color: rgb(238, 238, 238);
+    outline: 0px;
+    border-bottom: 2px solid rgb(42, 121, 95);
+}
+.form button{
+   min-width: 150px;
+   margin: 7px;
+   padding: 2px;
+   border-radius: .3em; 
+   text-align: center; 
+   resize: none;
+    margin-right: auto;
+    margin-left: auto;
+}
+.form label{
+    color: rgb(66, 66, 66);
+    font-size: larger;
+   display: flex;
+   justify-content: flex-start;
+   margin: 10px;
+   margin-top: 14px;
+   font-weight: bold
+}
+.form-edit{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.cont-edit{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin-right: auto;
+    margin-left: auto;
+}
